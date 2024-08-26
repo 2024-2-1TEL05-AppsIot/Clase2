@@ -65,9 +65,9 @@ public class MainActivity extends AppCompatActivity {
 
         int itemId = item.getItemId();
         if (itemId == R.id.wifi) {
-            Toast.makeText(this, "btn wifi presionado", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "btn wifi presionado", Toast.LENGTH_LONG).show();
         } else if (itemId == R.id.add) {
-            Toast.makeText(this, "btn add presionado", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "btn add presionado", Toast.LENGTH_LONG).show();
         } else if (itemId == R.id.notify) {
             //Toast.makeText(this, "btn notify presionado", Toast.LENGTH_SHORT).show();
             Log.d ("msgOptAppBar", "App Bar onclik");
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
                     String apellido = data.getStringExtra("apellido");
                     Toast.makeText(MainActivity.this,
                             "el apellido recibido es: " + apellido,
-                            Toast.LENGTH_SHORT).show();
+                            Toast.LENGTH_LONG).show();
                 }
             }
     );
